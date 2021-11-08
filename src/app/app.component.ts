@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'segundoP';
+  link='ui/ui.html'
+  getLink(){
+      return this.link;
+  }
 }
